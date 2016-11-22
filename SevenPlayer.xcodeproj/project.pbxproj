@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8324EB0B1DE2861F00C440C7 /* AFJS2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8324EB0A1DE2861F00C440C7 /* AFJS2.swift */; };
+		8324EB0D1DE2D17E00C440C7 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8324EB0C1DE2D17E00C440C7 /* ThirdViewController.swift */; };
+		837E1BD31DDD944E0080ECE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837E1BD21DDD944E0080ECE1 /* AppDelegate.swift */; };
+		837E1BD51DDD944E0080ECE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837E1BD41DDD944E0080ECE1 /* ViewController.swift */; };
+		837E1BD81DDD944E0080ECE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 837E1BD61DDD944E0080ECE1 /* Main.storyboard */; };
+		837E1BDA1DDD944E0080ECE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 837E1BD91DDD944E0080ECE1 /* Assets.xcassets */; };
+		837E1BDD1DDD944E0080ECE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 837E1BDB1DDD944E0080ECE1 /* LaunchScreen.storyboard */; };
+		837E1BE81DDD944F0080ECE1 /* SevenPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837E1BE71DDD944F0080ECE1 /* SevenPlayerTests.swift */; };
+		837E1BF31DDD944F0080ECE1 /* SevenPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837E1BF21DDD944F0080ECE1 /* SevenPlayerUITests.swift */; };
+		83DE8CB71DDE8C6D0032EA11 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DE8CB61DDE8C6D0032EA11 /* SecondViewController.swift */; };
+		A685A2F8BD1166934E6335CF /* libPods-SevenPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 109493496D629751DC7DCD4F /* libPods-SevenPlayer.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		837E1BE41DDD944F0080ECE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 837E1BC71DDD944E0080ECE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 837E1BCE1DDD944E0080ECE1;
+			remoteInfo = SevenPlayer;
+		};
+		837E1BEF1DDD944F0080ECE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 837E1BC71DDD944E0080ECE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 837E1BCE1DDD944E0080ECE1;
+			remoteInfo = SevenPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		109493496D629751DC7DCD4F /* libPods-SevenPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SevenPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E7FA0F829BE48FB5256708B /* Pods-SevenPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SevenPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-SevenPlayer/Pods-SevenPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		7DC3C703DABA19784629581D /* Pods-SevenPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SevenPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SevenPlayer/Pods-SevenPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		8324EB0A1DE2861F00C440C7 /* AFJS2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFJS2.swift; sourceTree = "<group>"; };
+		8324EB0C1DE2D17E00C440C7 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		837E1BCF1DDD944E0080ECE1 /* SevenPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SevenPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		837E1BD21DDD944E0080ECE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		837E1BD41DDD944E0080ECE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		837E1BD71DDD944E0080ECE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		837E1BD91DDD944E0080ECE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		837E1BDC1DDD944E0080ECE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		837E1BDE1DDD944E0080ECE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		837E1BE31DDD944F0080ECE1 /* SevenPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SevenPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		837E1BE71DDD944F0080ECE1 /* SevenPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevenPlayerTests.swift; sourceTree = "<group>"; };
+		837E1BE91DDD944F0080ECE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		837E1BEE1DDD944F0080ECE1 /* SevenPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SevenPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		837E1BF21DDD944F0080ECE1 /* SevenPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevenPlayerUITests.swift; sourceTree = "<group>"; };
+		837E1BF41DDD944F0080ECE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		837E1C001DDDA5FD0080ECE1 /* SevenPlayer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SevenPlayer-Bridging-Header.h"; sourceTree = "<group>"; };
+		83DE8CB61DDE8C6D0032EA11 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		837E1BCC1DDD944E0080ECE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A685A2F8BD1166934E6335CF /* libPods-SevenPlayer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837E1BE01DDD944F0080ECE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837E1BEB1DDD944F0080ECE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		837E1BC61DDD944E0080ECE1 = {
+			isa = PBXGroup;
+			children = (
+				837E1BD11DDD944E0080ECE1 /* SevenPlayer */,
+				837E1BE61DDD944F0080ECE1 /* SevenPlayerTests */,
+				837E1BF11DDD944F0080ECE1 /* SevenPlayerUITests */,
+				837E1BD01DDD944E0080ECE1 /* Products */,
+				C6C93197B3DA7B0034F58163 /* Pods */,
+				F94100A45F95CF29BC12561F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		837E1BD01DDD944E0080ECE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				837E1BCF1DDD944E0080ECE1 /* SevenPlayer.app */,
+				837E1BE31DDD944F0080ECE1 /* SevenPlayerTests.xctest */,
+				837E1BEE1DDD944F0080ECE1 /* SevenPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		837E1BD11DDD944E0080ECE1 /* SevenPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				837E1BD21DDD944E0080ECE1 /* AppDelegate.swift */,
+				837E1BD41DDD944E0080ECE1 /* ViewController.swift */,
+				83DE8CB61DDE8C6D0032EA11 /* SecondViewController.swift */,
+				8324EB0C1DE2D17E00C440C7 /* ThirdViewController.swift */,
+				8324EB0A1DE2861F00C440C7 /* AFJS2.swift */,
+				837E1BD61DDD944E0080ECE1 /* Main.storyboard */,
+				837E1BD91DDD944E0080ECE1 /* Assets.xcassets */,
+				837E1BDB1DDD944E0080ECE1 /* LaunchScreen.storyboard */,
+				837E1BDE1DDD944E0080ECE1 /* Info.plist */,
+				837E1C001DDDA5FD0080ECE1 /* SevenPlayer-Bridging-Header.h */,
+			);
+			path = SevenPlayer;
+			sourceTree = "<group>";
+		};
+		837E1BE61DDD944F0080ECE1 /* SevenPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				837E1BE71DDD944F0080ECE1 /* SevenPlayerTests.swift */,
+				837E1BE91DDD944F0080ECE1 /* Info.plist */,
+			);
+			path = SevenPlayerTests;
+			sourceTree = "<group>";
+		};
+		837E1BF11DDD944F0080ECE1 /* SevenPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				837E1BF21DDD944F0080ECE1 /* SevenPlayerUITests.swift */,
+				837E1BF41DDD944F0080ECE1 /* Info.plist */,
+			);
+			path = SevenPlayerUITests;
+			sourceTree = "<group>";
+		};
+		C6C93197B3DA7B0034F58163 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DC3C703DABA19784629581D /* Pods-SevenPlayer.debug.xcconfig */,
+				1E7FA0F829BE48FB5256708B /* Pods-SevenPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F94100A45F95CF29BC12561F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				109493496D629751DC7DCD4F /* libPods-SevenPlayer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		837E1BCE1DDD944E0080ECE1 /* SevenPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 837E1BF71DDD944F0080ECE1 /* Build configuration list for PBXNativeTarget "SevenPlayer" */;
+			buildPhases = (
+				6BA41CD4E5DC0734CE852853 /* [CP] Check Pods Manifest.lock */,
+				837E1BCB1DDD944E0080ECE1 /* Sources */,
+				837E1BCC1DDD944E0080ECE1 /* Frameworks */,
+				837E1BCD1DDD944E0080ECE1 /* Resources */,
+				4C69EBC58C887407B1D0B646 /* [CP] Embed Pods Frameworks */,
+				E299D7AFCF344508225356BD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SevenPlayer;
+			productName = SevenPlayer;
+			productReference = 837E1BCF1DDD944E0080ECE1 /* SevenPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		837E1BE21DDD944F0080ECE1 /* SevenPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 837E1BFA1DDD944F0080ECE1 /* Build configuration list for PBXNativeTarget "SevenPlayerTests" */;
+			buildPhases = (
+				837E1BDF1DDD944F0080ECE1 /* Sources */,
+				837E1BE01DDD944F0080ECE1 /* Frameworks */,
+				837E1BE11DDD944F0080ECE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				837E1BE51DDD944F0080ECE1 /* PBXTargetDependency */,
+			);
+			name = SevenPlayerTests;
+			productName = SevenPlayerTests;
+			productReference = 837E1BE31DDD944F0080ECE1 /* SevenPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		837E1BED1DDD944F0080ECE1 /* SevenPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 837E1BFD1DDD944F0080ECE1 /* Build configuration list for PBXNativeTarget "SevenPlayerUITests" */;
+			buildPhases = (
+				837E1BEA1DDD944F0080ECE1 /* Sources */,
+				837E1BEB1DDD944F0080ECE1 /* Frameworks */,
+				837E1BEC1DDD944F0080ECE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				837E1BF01DDD944F0080ECE1 /* PBXTargetDependency */,
+			);
+			name = SevenPlayerUITests;
+			productName = SevenPlayerUITests;
+			productReference = 837E1BEE1DDD944F0080ECE1 /* SevenPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		837E1BC71DDD944E0080ECE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = caiyangzhenyu;
+				TargetAttributes = {
+					837E1BCE1DDD944E0080ECE1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = NR2PB6D8F2;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+					837E1BE21DDD944F0080ECE1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = NR2PB6D8F2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 837E1BCE1DDD944E0080ECE1;
+					};
+					837E1BED1DDD944F0080ECE1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = NR2PB6D8F2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 837E1BCE1DDD944E0080ECE1;
+					};
+				};
+			};
+			buildConfigurationList = 837E1BCA1DDD944E0080ECE1 /* Build configuration list for PBXProject "SevenPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 837E1BC61DDD944E0080ECE1;
+			productRefGroup = 837E1BD01DDD944E0080ECE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				837E1BCE1DDD944E0080ECE1 /* SevenPlayer */,
+				837E1BE21DDD944F0080ECE1 /* SevenPlayerTests */,
+				837E1BED1DDD944F0080ECE1 /* SevenPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		837E1BCD1DDD944E0080ECE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837E1BDD1DDD944E0080ECE1 /* LaunchScreen.storyboard in Resources */,
+				837E1BDA1DDD944E0080ECE1 /* Assets.xcassets in Resources */,
+				837E1BD81DDD944E0080ECE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837E1BE11DDD944F0080ECE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837E1BEC1DDD944F0080ECE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C69EBC58C887407B1D0B646 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SevenPlayer/Pods-SevenPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BA41CD4E5DC0734CE852853 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E299D7AFCF344508225356BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SevenPlayer/Pods-SevenPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		837E1BCB1DDD944E0080ECE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8324EB0B1DE2861F00C440C7 /* AFJS2.swift in Sources */,
+				83DE8CB71DDE8C6D0032EA11 /* SecondViewController.swift in Sources */,
+				8324EB0D1DE2D17E00C440C7 /* ThirdViewController.swift in Sources */,
+				837E1BD51DDD944E0080ECE1 /* ViewController.swift in Sources */,
+				837E1BD31DDD944E0080ECE1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837E1BDF1DDD944F0080ECE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837E1BE81DDD944F0080ECE1 /* SevenPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837E1BEA1DDD944F0080ECE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837E1BF31DDD944F0080ECE1 /* SevenPlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		837E1BE51DDD944F0080ECE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 837E1BCE1DDD944E0080ECE1 /* SevenPlayer */;
+			targetProxy = 837E1BE41DDD944F0080ECE1 /* PBXContainerItemProxy */;
+		};
+		837E1BF01DDD944F0080ECE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 837E1BCE1DDD944E0080ECE1 /* SevenPlayer */;
+			targetProxy = 837E1BEF1DDD944F0080ECE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		837E1BD61DDD944E0080ECE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				837E1BD71DDD944E0080ECE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		837E1BDB1DDD944E0080ECE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				837E1BDC1DDD944E0080ECE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		837E1BF51DDD944F0080ECE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		837E1BF61DDD944F0080ECE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		837E1BF81DDD944F0080ECE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DC3C703DABA19784629581D /* Pods-SevenPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = NR2PB6D8F2;
+				INFOPLIST_FILE = SevenPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = caiyangzhenyu.SevenPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SevenPlayer/SevenPlayer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		837E1BF91DDD944F0080ECE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E7FA0F829BE48FB5256708B /* Pods-SevenPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = NR2PB6D8F2;
+				INFOPLIST_FILE = SevenPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = caiyangzhenyu.SevenPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SevenPlayer/SevenPlayer-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		837E1BFB1DDD944F0080ECE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NR2PB6D8F2;
+				INFOPLIST_FILE = SevenPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = caiyangzhenyu.SevenPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SevenPlayer.app/SevenPlayer";
+			};
+			name = Debug;
+		};
+		837E1BFC1DDD944F0080ECE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NR2PB6D8F2;
+				INFOPLIST_FILE = SevenPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = caiyangzhenyu.SevenPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SevenPlayer.app/SevenPlayer";
+			};
+			name = Release;
+		};
+		837E1BFE1DDD944F0080ECE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = NR2PB6D8F2;
+				INFOPLIST_FILE = SevenPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = caiyangzhenyu.SevenPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SevenPlayer;
+			};
+			name = Debug;
+		};
+		837E1BFF1DDD944F0080ECE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = NR2PB6D8F2;
+				INFOPLIST_FILE = SevenPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = caiyangzhenyu.SevenPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SevenPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		837E1BCA1DDD944E0080ECE1 /* Build configuration list for PBXProject "SevenPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				837E1BF51DDD944F0080ECE1 /* Debug */,
+				837E1BF61DDD944F0080ECE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		837E1BF71DDD944F0080ECE1 /* Build configuration list for PBXNativeTarget "SevenPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				837E1BF81DDD944F0080ECE1 /* Debug */,
+				837E1BF91DDD944F0080ECE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		837E1BFA1DDD944F0080ECE1 /* Build configuration list for PBXNativeTarget "SevenPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				837E1BFB1DDD944F0080ECE1 /* Debug */,
+				837E1BFC1DDD944F0080ECE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		837E1BFD1DDD944F0080ECE1 /* Build configuration list for PBXNativeTarget "SevenPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				837E1BFE1DDD944F0080ECE1 /* Debug */,
+				837E1BFF1DDD944F0080ECE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 837E1BC71DDD944E0080ECE1 /* Project object */;
+}
